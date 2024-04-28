@@ -15,7 +15,7 @@ const CollectionSidebar = () => {
         </div>
         <div className={`${Fonts?.lexend400.className} w-full flex text-sm my-4 items-center`}>
           <div className="flex justify-center">
-            {Array(4).fill(null).map((_, index) => (
+            {Array(5).fill(null).map((_, index) => (
               <PeopleCircle peoples={peoples} index={index} key={index} />
             ))}
           </div>
